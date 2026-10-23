@@ -1,0 +1,26 @@
+TASK 7 - Arithmetic Intensity vs. Memory Bottlenecks
+Student ID: 230103161
+OS: Windows-11-10.0.26300-SP0
+Logical cores detected: 8
+Numba maximum threads: 8
+Array length: 30,000,000 (float64)
+Repeats per configuration: 3 (best elapsed time)
+
+A - Vector copy
+  Cores |  Wall Time (ms) |   Speedup |  Efficiency
+------------------------------------------------------
+      1 |          30.934 |    1.000x |   100.000%
+      2 |          31.102 |    0.995x |    49.730%
+      8 |          27.055 |    1.143x |    14.292%
+
+B - Trigonometric
+  Cores |  Wall Time (ms) |   Speedup |  Efficiency
+------------------------------------------------------
+      1 |         403.122 |    1.000x |   100.000%
+      2 |         198.502 |    2.031x |   101.541%
+      8 |          74.232 |    5.431x |    67.882%
+
+At 8 threads: copy speedup = 1.143x; compute speedup = 5.431x
+Observed scaling stall: Kernel A (vector copy).
+Consistent with memory-bandwidth saturation; confirm using hardware counters.
+Note: run on your own CPU for machine-specific conclusions.
