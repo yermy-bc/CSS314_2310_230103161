@@ -1,0 +1,10 @@
+Student ID: 230103161
+Array Size: 2,000,000
+Parallel Threads: 4
+Serial Time (ms): 4.940
+Parallel Time (ms): 4.626
+Speedup: 1.07x
+Final Prefix Sum: 10998412
+Verification Status: PASS
+
+Process finished with exit code 0
