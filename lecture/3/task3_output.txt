@@ -1,0 +1,10 @@
+Student ID: 230103161
+OS: Windows-11-10.0.26300-SP0
+Logical cores: 8
+Physical workers: 4
+Increments per thread: 50,000,000
+Unpadded Shared: 0.343 ms
+Padded/Local: 0.270 ms
+Execution Ratio (Unpadded / Local): 1.272x
+Verification: PASS
+Note: JIT optimizations may reduce the observable false-sharing effect.
