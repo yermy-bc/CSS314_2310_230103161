@@ -1,0 +1,15 @@
+Student ID: 230103161
+Array size: 20,000,000 float64 elements
+Logical cores (os.cpu_count): 8
+Parallelizable fraction (Amdahl P): 0.95
+Execution: ThreadPoolExecutor; NumPy chunk sums release the GIL
+Timing: wall-clock for dispatch, reduction, and collection; pool creation excluded
+
+  Cores |  Wall Time (ms) |   Speedup | Amdahl Upper Bound
+--------------------------------------------------------------
+      1 |          24.499 |    1.000x |             1.000x
+      2 |          15.355 |    1.595x |             1.905x
+      4 |          12.088 |    2.027x |             3.478x
+      8 |          11.335 |    2.161x |             5.926x
+     16 |          13.013 |    1.883x |             9.143x
+Verification: PASS
