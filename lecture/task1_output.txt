@@ -1,0 +1,8 @@
+Student ID: 230103161
+OS: Windows-11-10.0.26300-SP0
+CPU: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+Logical cores (os.cpu_count): 8
+Array size: 20,000,000 float64 elements
+Sum: 9999030.0443497859
+Standard deviation (population): 0.2886385850
+Serial wall-clock time: 178.515 ms
