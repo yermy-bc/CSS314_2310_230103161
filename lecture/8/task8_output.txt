@@ -1,0 +1,15 @@
+TASK 8 - CPU Parallel Tile Reduction / Matrix Multiplication
+Student ID: 230103161
+OS: Windows (AMD64)
+Logical cores detected: 8
+Numba threads used: 8
+Matrix size: 1024 x 1024 (float64)
+Timings: minimum of 3 warmed-up wall-clock measurements; compilation excluded.
+Note: cache misses are not directly measured; runtime is a cache-performance proxy.
+Non-tiled            1390.434 ms
+16x16 tiled           285.586 ms
+64x64 tiled           240.443 ms
+16x16 vs non-tiled: 4.869x
+64x64 vs non-tiled: 5.783x
+Fastest configuration: 64x64 tiled
+Verification: PASS
