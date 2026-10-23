@@ -1,0 +1,16 @@
+Student ID: 230103161
+OS: Windows 11
+Logical cores (os.cpu_count): 8
+Parallel worker threads: 8
+Operation: y[i] = 2.5 * x[i] + 1.75; median of 7 timed runs
+           N |  Serial (ms) | Parallel (ms) |   Speedup |   Faster
+---------------------------------------------------------------------
+         100 |     0.001700 |      0.018800 |    0.090x |   Serial
+       1,000 |     0.001900 |      0.018400 |    0.103x |   Serial
+      10,000 |     0.006300 |      0.038400 |    0.164x |   Serial
+     100,000 |     0.067800 |      0.039200 |    1.730x | Parallel
+   1,000,000 |     1.509900 |      0.904000 |    1.670x | Parallel
+  10,000,000 |    14.224900 |     11.004100 |    1.293x | Parallel
+Observed serial-to-parallel crossover interval(s): 10,000 < N <= 100,000
+NOTE: A crossover interval is bracketed by tested N values, not an exact single N.
+Verification: PASS
