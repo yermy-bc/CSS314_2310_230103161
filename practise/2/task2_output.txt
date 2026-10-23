@@ -1,0 +1,11 @@
+Student ID: 230103161
+Total samples: 40,000,000
+Threads: 4
+Chunk size: 25,000
+
+Shared PRNG:       pi = 3.141700300, absolute error = 0.000107646, wall time = 579.641 ms
+Independent PRNG:  pi = 3.141640600, absolute error = 0.000047946, wall time = 221.861 ms
+Speedup (shared / independent): 2.61x
+Note: timings depend on CPU, NumPy, and thread scheduling.
+
+Process finished with exit code 0
