@@ -1,0 +1,9 @@
+Student ID: 230103161
+CPU IPC vs Shared Memory (int64 arrays)
+Timing: sender transfer + receiver acknowledgement; worker initialization excluded from timer.
+           N |   Path A Queue (ms) |  Path B Shared (ms) |     A/B | Status
+     100,000 |               5.966 |               0.995 |    5.99 | PASS
+   1,000,000 |              16.690 |               4.140 |    4.03 | PASS
+  10,000,000 |             226.552 |              35.955 |    6.30 | PASS
+
+Process finished with exit code 0
