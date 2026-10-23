@@ -1,0 +1,14 @@
+TASK 4 — Work Stealing & Scheduling Under Skew
+Student ID: 230103161
+Items: 1000 | Workers: 4 | Dynamic chunk size: 5
+Workload: sleep(0.0001 * (i % 20))
+
+Strategy                 Wall Time (ms)   First Finish (ms)   Last Finish (ms)   Finish Delta (ms)
+----------------------------------------------------------------------------------------------------
+A: Static chunks                319.191             308.354            319.000              10.646
+  Items per worker: [250, 250, 250, 250]
+B: Dynamic queue                330.569             324.016            330.322               6.307
+  Items per worker: [240, 260, 250, 250]
+
+Speedup (Static / Dynamic): 0.966x
+Verification: PASS (1,000 items processed by each strategy)
