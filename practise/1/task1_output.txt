@@ -1,0 +1,10 @@
+Student ID: 230103161
+Logical Cores: 8
+Physical Cores: 4
+Numba Threads Used: 4
+Matrix: 8000 x 8000, float64
+Mode A (Row-Major): 195.57 ms
+Mode B (Column-Major): 409.37 ms
+Cache Penalty Factor (B / A): 2.09x
+Mode A Sum: 32000003.662071
+Mode B Sum: 32000003.662071
