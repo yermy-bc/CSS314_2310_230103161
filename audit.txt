@@ -1,0 +1,36 @@
+042e755 - 2026-10-23 10:56:01 +0500 : feat: task 8 compute geometry
+c1630eb - 2026-10-23 10:55:47 +0500 : feat: task 8 compute geometry
+a988450 - 2026-10-23 10:49:19 +0500 : feat: task 7 memory bandwidth saturation
+b152bb1 - 2026-10-23 10:48:56 +0500 : feat: task 7 memory bandwidth saturation
+ae1447f - 2026-10-23 10:40:38 +0500 : feat: task 6 race condition forensics
+93456ae - 2026-10-23 10:40:06 +0500 : feat: task 6 race condition forensics
+242fd0c - 2026-10-23 10:27:20 +0500 : feat: task 5 overhead crossover
+3b254e3 - 2026-10-23 10:27:06 +0500 : feat: task 5 overhead crossover
+645aeb4 - 2026-10-23 10:19:07 +0500 : feat: task 4 scheduling under skew
+d8e2063 - 2026-10-23 10:18:37 +0500 : Add files via upload
+84cbab0 - 2026-10-23 10:18:22 +0500 : feat: task 4 scheduling under skew
+aa929cb - 2026-10-23 10:05:21 +0500 : feat: task 3 false sharing profile
+ecbf795 - 2026-10-23 10:04:57 +0500 : feat: task 3 false sharing profile
+c4d0f29 - 2026-10-23 09:54:26 +0500 : Update README.md
+3e2cafd - 2026-10-23 09:52:37 +0500 : feat: task 2 amdahl scaling
+2ebf9f7 - 2026-10-23 09:51:49 +0500 : feat: task 2 amdahl scaling
+b7ba25a - 2026-10-23 09:47:32 +0500 : feat: task 1 baseline execution
+ce750b8 - 2026-10-23 09:47:12 +0500 : feat: task 1 baseline execution
+c8becd1 - 2026-10-23 09:43:38 +0500 : feat: task 1 baseline execution
+6545430 - 2026-10-23 09:43:00 +0500 : feat: task 1 baseline execution
+b859842 - 2026-10-23 09:40:01 +0500 : Update README.md
+ed44c85 - 2026-10-23 09:11:42 +0500 : feat: task 4 memory transfer profile
+5161790 - 2026-10-23 09:11:11 +0500 : feat: task 4 memory transfer profile
+360dc22 - 2026-10-23 09:10:53 +0500 : feat: task 4 memory transfer profile
+9f4e040 - 2026-10-23 09:00:19 +0500 : Delete practise/3/ddd
+f9bf77b - 2026-10-23 08:59:54 +0500 : feat: task 3 parallel scan verification
+b3ce3fe - 2026-10-23 08:55:26 +0500 : Create ddd
+f2aa480 - 2026-10-23 08:54:22 +0500 : Delete practise/2/ddd
+749a05f - 2026-10-23 08:53:41 +0500 : Delete practise/1/ddd
+d780c56 - 2026-10-23 08:53:29 +0500 : Delete practise/ddd
+759c8af - 2026-10-23 08:53:09 +0500 : feat: task 2 prng state isolation
+62c99b9 - 2026-10-23 08:48:45 +0500 : Create ddd
+250360c - 2026-10-23 08:48:28 +0500 : feat: task 1 spatial cache profiling
+ce2c5af - 2026-10-23 08:47:33 +0500 : Create ddd
+58fe3dd - 2026-10-23 08:47:18 +0500 : Create ddd
+357d878 - 2026-10-23 08:39:42 +0500 : Initial commit
