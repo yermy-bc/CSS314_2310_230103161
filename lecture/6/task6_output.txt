@@ -1,0 +1,19 @@
+Student ID: 230103161
+OS: win32
+Logical Cores: 8
+Threads: 4
+Increments per thread: 2,000,000
+Expected final value: 8,000,000
+
+UNSAFE (no lock):
+Actual final value: 2,893,491
+Lost updates: 5,106,509
+Lost updates percentage: 63.8314%
+Wall time: 1089.926 ms
+
+SAFE (threading.Lock):
+Actual final value: 8,000,000
+Wall time: 1522.509 ms
+Synchronization time penalty: +432.583 ms
+Time ratio (safe / unsafe): 1.397x
+Verification: PASS
